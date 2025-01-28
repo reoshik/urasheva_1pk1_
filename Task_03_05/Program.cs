@@ -2,7 +2,6 @@
 {
     internal class Program
     {
-        public static object Covert { get; private set; }
 
         /*
 Написать программу, которая выводит на экран таблицу соответствия температуры в градусах Цельсия
@@ -11,7 +10,7 @@
 */
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите шаг и диапазон (от и до) в градусах Цельсия для таблицы изменения температуры. ");
+            Console.WriteLine("Введите шаг и диапазон в градусах Цельсия для таблицы изменения температуры. ");
             double step = Convert.ToDouble(Console.ReadLine());  // шаг
             double start = Convert.ToDouble(Console.ReadLine());  // от
             double finish = Convert.ToDouble(Console.ReadLine());   // до 11
