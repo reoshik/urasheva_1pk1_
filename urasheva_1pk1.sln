@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_02", "Lesson_02", "{554CDF36-9A29-452D-B2B8-DE11D3F8165D}"
 EndProject
@@ -36,6 +36,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_04_09", "Task_04_09\Task_04_09.csproj", "{316B263E-C3E2-4FB3-B213-9CD4368CF6E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_04_10", "Task_04_10\Task_04_10.csproj", "{02113838-1CF1-4205-BDD1-4D807FFF1164}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_05", "Lesson_05", "{131AB8DD-B43D-4415-8213-A2D5CA065CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_05_03_", "Task_05_03_\Task_05_03_.csproj", "{A2D93477-DE59-491E-B477-1B8F5653C1D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,10 @@ Global
 		{02113838-1CF1-4205-BDD1-4D807FFF1164}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02113838-1CF1-4205-BDD1-4D807FFF1164}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02113838-1CF1-4205-BDD1-4D807FFF1164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D93477-DE59-491E-B477-1B8F5653C1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D93477-DE59-491E-B477-1B8F5653C1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D93477-DE59-491E-B477-1B8F5653C1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D93477-DE59-491E-B477-1B8F5653C1D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,5 +126,6 @@ Global
 		{AFECC801-281B-428B-8A0D-F92EE7D75C69} = {618BC7E3-F342-4530-B5A6-B329E7CBF530}
 		{316B263E-C3E2-4FB3-B213-9CD4368CF6E5} = {618BC7E3-F342-4530-B5A6-B329E7CBF530}
 		{02113838-1CF1-4205-BDD1-4D807FFF1164} = {618BC7E3-F342-4530-B5A6-B329E7CBF530}
+		{A2D93477-DE59-491E-B477-1B8F5653C1D8} = {131AB8DD-B43D-4415-8213-A2D5CA065CA3}
 	EndGlobalSection
 EndGlobal
