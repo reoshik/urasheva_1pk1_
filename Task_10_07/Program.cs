@@ -54,7 +54,7 @@ class Program
         }
     }
 
-   public static void Main(string[] args)
+   public static void GenerateCharArray(string[] args)
     {
         // Определяем размеры массива
         int rows = 5; // количество строк
