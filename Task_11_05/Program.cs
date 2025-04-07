@@ -1,6 +1,6 @@
 ﻿namespace Task_11_05
 {
-    class Program
+     internal class Program
     {
         /// <summary>
         /// Метод, который принимает два числа по ссылке и возвращает их сумму и произведение.

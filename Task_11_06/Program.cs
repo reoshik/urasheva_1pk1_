@@ -1,6 +1,6 @@
 ﻿namespace Task_11_06
 {
-    class Program
+     internal class Program
     {
         /// <summary>
         /// Метод, который принимает массив целых чисел и увеличивает каждый элемент на 1.

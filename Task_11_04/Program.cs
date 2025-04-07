@@ -7,7 +7,7 @@
     /// </summary>
     /// <param name="numbers">Массив чисел для вычисления среднего значения.</param>
     /// <returns>Среднее значение чисел.</returns>
-    class Program
+     internal class Program
     {
         static void Main(string[] args)
         {
