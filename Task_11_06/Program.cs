@@ -1,34 +1,39 @@
 ﻿namespace Task_11_06
-{ /// <summary>
-  /// Метод, который принимает массив целых чисел и увеличивает каждый элемент на 1.
-  /// Поскольку массив в C# передаётся по ссылке, изменения внутри метода будут
-  /// видимы вне его. Однако, если заменить массив на новый, то оригинальный массив не изменится.
-  /// </summary>
-  /// <param name="numbers">Массив целых чисел для изменения.</param>
-
-    internal class Program
+{
+    class Program
     {
-        static void IncreaseArrayElements(int[] numbers)
+        /// <summary>
+        /// Метод, который принимает массив целых чисел и увеличивает каждый элемент на 1.
+        /// </summary>
+        /// <param name="numbers">Массив целых чисел.</param>
+        static void IncrementArray(int[] numbers)
         {
             for (int i = 0; i < numbers.Length; i++)
             {
-                //Увеличиваем каждый элемент на 1
-                numbers[i] += 1;
+                numbers[i] += 1; // Увеличиваем каждый элемент на 1
             }
         }
 
-        static void Main()
+        static void Main(string[] args)
         {
-            //Создаём массив
-            int[] originalArray = { 1, 2, 3, 4, 5 };
+            Random random = new Random();
+            int size = 5; // Размер массива
+            int[] originalArray = new int[size];
 
-            //Выводим оригинальный метод
-            Console.WriteLine("Оригинальный массив до изменения: " + string.Join(", ", originalArray));
+            // Заполнение массива случайными числами
+            for (int i = 0; i < 0; i++)
+            {
+                originalArray[i] = random.Next(1, 101); // Случайные числа от 1 до 100
+            }
 
-            //Вызываем метод,изменяющий элементы
-            IncreaseArrayElements(originalArray);
-            //Выводим массив после вызова метода
-             Console.WriteLine("Оригинальный массив после изменения: " + string.Join(", ", originalArray));
+            Console.WriteLine("Оригинальный массив:");
+            Console.WriteLine(string.Join(", ", originalArray)); // Вывод оригинального массива
+
+            // Вызов метода для изменения массива
+            IncrementArray(originalArray);
+
+            Console.WriteLine("Массив после изменения:");
+            Console.WriteLine(string.Join(", ", originalArray)); // Вывод изменённого массива
         }
     }
 }
